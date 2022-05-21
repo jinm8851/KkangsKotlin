@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/app/src/main/res/layout/activity_main.xml" value="0.321875" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/fragment_one.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/fragment_three.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/fragment_two.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/item_recyclerview.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/menu/menu_main.xml" value="0.3234375" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/notification/src/main/res/layout/activity_main.xml" value="0.321875" />
       </map>
     </option>
