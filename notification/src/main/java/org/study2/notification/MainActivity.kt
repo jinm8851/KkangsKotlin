@@ -16,6 +16,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.RemoteInput
 import org.study2.notification.databinding.ActivityMainBinding
 
+// 브로드 케스트로 많든 알림
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
