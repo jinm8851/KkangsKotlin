@@ -12,7 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/ch11_jetpack" />
+            <option value="$PROJECT_DIR$/ch13_activity" />
             <option value="$PROJECT_DIR$/ch_11jecpack" />
             <option value="$PROJECT_DIR$/notification" />
           </set>

@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "KkangsKotlin"
 include ':app'
 include ':notification'
-include ':ch11_jetpack'
 include ':ch_11jecpack'
+include ':ch13_activity'

@@ -4,12 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/app/src/main/res/layout/activity_main.xml" value="0.321875" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/layout/fragment_one.xml" value="0.3234375" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/layout/fragment_three.xml" value="0.3234375" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/layout/fragment_two.xml" value="0.3234375" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/layout/item_recyclerview.xml" value="0.3234375" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/layout/navigation_header.xml" value="0.3234375" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/menu/menu_main.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch12_material/src/main/res/menu/menu_navigation.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch13_activity/src/main/res/layout/activity_add.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch13_activity/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch13_activity/src/main/res/layout/item_recyclerview.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/fragment_one.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/fragment_three.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/fragment_two.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/layout/item_recyclerview.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_11jecpack/src/main/res/menu/menu_main.xml" value="0.3234375" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/layout/activity_main.xml" value="0.2575039494470774" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/layout/fragment_one.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/layout/fragment_three.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/layout/fragment_two.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/layout/item_recyclerview.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/layout/navigation_header.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/menu/menu_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/ch_material/src/main/res/menu/menu_navigation.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/jinm8/AndroidStudioProjects/KkangsKotlin/notification/src/main/res/layout/activity_main.xml" value="0.321875" />
       </map>
     </option>
@@ -19,5 +38,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
