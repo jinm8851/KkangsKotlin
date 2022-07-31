@@ -36,17 +36,18 @@ class MainActivity : AppCompatActivity() {
                     channelId,channelName,NotificationManager.IMPORTANCE_DEFAULT
                 ).apply {
 //                    채널에 다양한 정보 설정
-                    description = "My Channel One Description"
+                    description = "My Channel One Description"  //환경설정에 나오는 설명문자
                     setShowBadge(true)
+                    //시스템에있는 효과음 준비
                     val uri: Uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
                     val audioAttributes = AudioAttributes.Builder()
                         .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
                         .setUsage(AudioAttributes.USAGE_ALARM)
                         .build()
-                    setSound(uri,audioAttributes)
-                    enableVibration(true)
+                    setSound(uri,audioAttributes)  //소리적용
+                    enableVibration(true) //진동적용
                 }
-//                채널을 Notification에 등록
+//                채널을 Manager 에 등록
                 manager.createNotificationChannel(channel)
                 //채널을 이용하여 builder 생성
                 builder = NotificationCompat.Builder(this,channelId)
@@ -56,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 //            상태바에 나오는 내용 (알림의 기본정보)
             builder.run {
                 setSmallIcon(R.drawable.small)
-                setWhen(System.currentTimeMillis())
+                setWhen(System.currentTimeMillis()) //언제뜬 노티피케이션이야 시스템시간
                 setContentTitle("홍길동")
                 setContentText("안녕하세요")
                 setLargeIcon(BitmapFactory.decodeResource(resources,R.drawable.big))
@@ -70,6 +71,7 @@ class MainActivity : AppCompatActivity() {
             }
 //            브로드케스트를 실행하기위해 인텐트를 발생시키기전 펜딩인텐트로 감싸줌
             val replyIntent = Intent(this,ReplyReceiver::class.java)
+            // 팬딩인텐트로 감싸서 바로 브로드케스트를 실행시키지 안고 유져가 답장을 했을때 실행시킴
             val replyPendingIntent = PendingIntent.getBroadcast(
                 this,30,replyIntent,PendingIntent.FLAG_MUTABLE
             )
