@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.study2.ch15_service">
-
-    <queries>
-        <package android:name="org.study2.ch15_outer" />
-    </queries>
+    package="org.study2.ch16_provider">
 
     <application
         android:allowBackup="true"
@@ -13,12 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KkangsKotlin">
-        <service
-            android:name=".MyJobService"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -28,6 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider android:name="androidx.core.content.FileProvider"
+            android:authorities="org.study2.ch16_provider.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+    </provider>
     </application>
 
 </manifest>
