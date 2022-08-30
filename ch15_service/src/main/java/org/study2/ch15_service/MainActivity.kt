@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var replyMessenger: Messenger
     var messengerJob: Job? = null
 
+
     //aidl...........
         var aidlService: MyAIDLInterface? = null
     var aidlJob: Job? = null
