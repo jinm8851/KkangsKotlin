@@ -12,8 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.coroutines.*
 import org.study2.ch15_outer.MyAIDLInterface
 import org.study2.ch15_service.databinding.ActivityMainBinding
-
-//아웃터 쪽 서비스를 이용하기 위해서 메니페스트에 팩키지등록 (아웃터 정보에 접근할수 있게)
+// 프로세스 간 통신하기(주석 달기 완료)
+//아웃터 쪽 서비스를 이용하기 위해서 메니페스트에 팩키지등록 (아웃터 정보에 접근할수 있게) ..
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
