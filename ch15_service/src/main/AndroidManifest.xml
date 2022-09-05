@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.study2.ch15_service">
-
+    //아웃터 쪽 서비스를 이용하기 위해서 메니페스트에 팩키지등록 (아웃터 정보에 접근할수 있게)
     <queries>
         <package android:name="org.study2.ch15_outer" />
     </queries>
