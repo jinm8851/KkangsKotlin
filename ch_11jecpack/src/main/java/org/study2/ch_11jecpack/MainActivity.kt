@@ -19,7 +19,7 @@ import org.study2.ch_11jecpack.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     lateinit var toggle: ActionBarDrawerToggle
-    //ViewPagerAdapter 작성
+    //ViewPagerAdapter 작성..
     class MyFragmentPagerAdapter(activity: FragmentActivity): FragmentStateAdapter(activity){
         //옆으로 넘길때 나오는 프레그먼트
         val fragments: List<Fragment>
