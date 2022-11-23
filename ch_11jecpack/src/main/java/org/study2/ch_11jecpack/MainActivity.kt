@@ -1,6 +1,6 @@
 package org.study2.ch_11jecpack
 
-import android.content.ClipData
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
